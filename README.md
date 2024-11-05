@@ -2,7 +2,7 @@
 
 ## Overview
 
-The `ThreadPool` class is a custom implementation of the `Executor` interface in Java. 
+The `ThreadPool` class is a custom implementation of the `Executor` interface in Java. Specifically, this is a fixed-number-of-threads pool.
 It provides an efficient way to manage and execute tasks concurrently using a blocking priority queue. 
 The pool allows dynamic adjustments to the number of worker threads, allows tasks to be paused, resumed, and supports controlled shutdown.
 
